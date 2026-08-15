@@ -1,3 +1,4 @@
+````markdown
 # 🍎 Apple Leaf Disease Classification Using CNN
 
 A Convolutional Neural Network (CNN) project for classifying apple leaf images into four categories using the PlantVillage dataset.
@@ -23,10 +24,9 @@ https://github.com/spMohanty/PlantVillage-Dataset
 - Epochs: 20
 - Output Classes: 4
 
-'''text
 ## CNN Structure
 
-
+```text
 Input: 256 × 256 × 3
         ↓
 Conv2D (16 filters, 3×3, ReLU)
@@ -48,24 +48,33 @@ Dense (256 neurons, ReLU)
 Dense (4 neurons, Softmax)
         ↓
 Output: 4 Classes
+````
 
 ## Results
 
-| Metric | Accuracy |
-|---|---:|
-| Training | 99.46% |
-| Validation | 95.16% |
-| Test | 93.13% |
-
-
+| Metric     | Accuracy |
+| ---------- | -------: |
+| Training   |   99.46% |
+| Validation |   95.16% |
+| Test       |   93.13% |
 
 ## Project Structure
 
 ```text
-├── data/
 ├── models/
 │   └── imageclassifier.keras
 ├── notebooks/
 │   └── CNN.ipynb
+├── Results/
+│   ├── accuracy.png
+│   └── loss.png
 ├── README.md
 └── .gitignore
+```
+
+## Author
+
+**Manas Kedia**
+
+```
+```
