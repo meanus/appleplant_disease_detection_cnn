@@ -23,6 +23,7 @@ https://github.com/spMohanty/PlantVillage-Dataset
 - Epochs: 20
 - Output Classes: 4
 
+'''text
 ## CNN Structure
 
 
