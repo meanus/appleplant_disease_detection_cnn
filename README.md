@@ -25,7 +25,7 @@ https://github.com/spMohanty/PlantVillage-Dataset
 
 ## CNN Structure
 
-```text
+
 Input: 256 × 256 × 3
         ↓
 Conv2D (16 filters, 3×3, ReLU)
