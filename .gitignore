@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+.virtual_documents/
+
+# TensorBoard Logs
+logs/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Dataset
+data/
